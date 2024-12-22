@@ -1,0 +1,8 @@
+footer ul li {
+    list-style-type: none;
+    
+}
+.massege{
+    display: flex;
+    margin: 5px;
+}

@@ -1,0 +1,49 @@
+form{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.side p{
+    font-size: large;
+    color: rgb(132, 132, 132);
+}
+
+.side li{
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(132, 132, 132);
+}
+
+.side li svg{
+    margin-right: 15px;
+}
+
+form .form-control{
+    border: none;
+}
+
+.form-control .li-ri{
+    display: flex;
+    margin: 20px;
+}
+
+.li-ri .icon{
+    margin-right: 10px;
+}
+
+input{
+    border: none;
+}
+
+button{
+    background-color: rgb(231, 152, 6);
+}
+
+/* إزالة اللون الأزرق عند التركيز على الحقول */
+form .form-control:focus{
+    outline: none;  /* لإزالة الإطار الأزرق */
+    border-color: #ccc; /* تغيير لون الإطار عند التركيز (يمكنك تعديل اللون كما تريد) */
+}  
