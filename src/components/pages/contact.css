@@ -40,10 +40,4 @@ input{
 
 button{
     background-color: rgb(231, 152, 6);
-}
-
-/* إزالة اللون الأزرق عند التركيز على الحقول */
-form .form-control:focus{
-    outline: none;  /* لإزالة الإطار الأزرق */
-    border-color: #ccc; /* تغيير لون الإطار عند التركيز (يمكنك تعديل اللون كما تريد) */
-}  
+} 
