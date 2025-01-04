@@ -1,15 +1,20 @@
 import { Fragment } from "react";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Contact from "./components/pages/contact";
+import Footer from "./components2/Footers/Footer";
+import Footer from "./components2/Footers/Footer2";
+import Contact from "./components2/pages/Contact";
+import ProductCard from "./components2/pages/ProductCard"
+
 
 
 function App() {
     return (
-        <Fragment>
+        <>
             <Contact />
+            <Footer2 />
+            <ProductCard />
             <Footer />
-        </Fragment>
+        </>
     );
 }
 
